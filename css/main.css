@@ -1,0 +1,82 @@
+body {
+    background-color: #0A0C11;
+}
+
+header {
+    width: 60vw;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto 0 auto;
+    font-family: "Poppins", serif;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h2,
+p {
+    color: #aaaaaa;
+}
+
+header>div>h1 {
+    margin: auto auto 1vh 4vw;
+}
+
+header>div>h2 {
+    margin: 1vh auto auto 4vw;
+}
+
+main {
+    width: 100vw;
+    
+}
+
+#main-blurb{
+    background-image: url(../img/philly/Leonardo_Vision_XL_Philadelphia_Skyline_2.jpg);
+    background-repeat: no-repeat;
+    background-size: fit;
+    background-position: 50% 0;
+}
+
+section>h1,
+section>h2,
+p {
+    width: 100%;
+}
+
+section,
+h1,
+h2 {
+    width: 60vw;
+    margin: 5vh auto 5vh auto;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main>h1{
+    font-size: 6rem;
+    width: 40vw;
+    text-transform: capitalize;
+}
+
+article>h3 {
+    color: #ffffff;
+    font-family: "Poppins", serif;
+}
+
+article>figure {
+    background-color: #ffffff;
+}
+
+article>figure>img {
+    width: 10vw;
+}
+
+footer {
+    width: 60vw;
+    margin: 0 auto 0 auto;
+}
