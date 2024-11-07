@@ -1,16 +1,20 @@
 body {
     background-color: #0A0C11;
+    font-family: "Poppins", serif;
+    margin: 0;
 }
 
 header {
     width: 60vw;
     display: flex;
     flex-wrap: nowrap;
-    margin: 0 auto 0 auto;
-    font-family: "Poppins", serif;
+    margin: 10vh auto 0 auto;
+    
 }
 
-
+header > div{
+    margin: 0;
+}
 
 h1,
 h2,
@@ -19,29 +23,42 @@ p {
 }
 
 header>div>h1 {
-    color: #ffffff;
-    margin: auto auto 1vh 4vw;
+    color: #BA1200;
+    margin: auto auto 0 2vw;
+    font-size: 2rem;    
 }
 
 header>div>h2 {
-    margin: 1vh auto auto 4vw;
+    margin: 0 auto auto 2vw;
+    font-size: 1rem;
 }
 
 main {
-    width: 100vw;
     text-align: center;
 }
 
+main>h1 {
+    font-size: 6rem;
+    width: 50vw;
+    text-transform: capitalize;
+    line-height: 1.2;
+    color: #aaaaaa;
+}
+
 #main-blurb {
-    background-image: url(../img/philly/Leonardo_Vision_XL_Philadelphia_Skyline_6.jpg);
+    background-image: url(../img/philly/Leonardo_Vision_XL_Philadelphia_Skyline_4.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 50% 0;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.3); 
+    border-radius: 3vw;
 }
 
 #main-blurb>p {
     color: white;
+    font-weight: bold;
     text-shadow: 10px 10px 5px black;
+    filter: brightness(1);
 }
 
 section>h1,
@@ -55,26 +72,22 @@ section {
     margin: 5vh auto 5vh auto;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 section>p {
-    width: 60vw;
+    width: 80vw;
     font-size: 2rem;
     margin: 2vh auto 2vh auto;
+    padding: 0 10vw 0 10vw;    
 }
 
 h1,
 h2 {
     width: 60vw;
     margin: 5vh auto 5vh auto;
-}
 
-
-
-main>h1 {
-    font-size: 6rem;
-    width: 40vw;
-    text-transform: capitalize;
 }
 
 article>h3 {
@@ -84,10 +97,12 @@ article>h3 {
 
 article>figure {
     background-color: #ffffff;
+    border-radius: 10%;
 }
 
 article>figure>img {
     width: 10vw;
+    margin: 1vw;
 }
 
 footer {
