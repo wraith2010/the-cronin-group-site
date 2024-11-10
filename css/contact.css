@@ -1,0 +1,50 @@
+p{
+    width: 50vw !important;
+    margin: 0 auto 0 auto;
+    font-size: 1rem;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45vw;
+    margin: 0 auto 0 auto;
+}
+
+label {
+    width: 60vw;
+    font-size: 2rem;
+    text-align: left;
+}
+
+input {
+    width: 60vw;
+    margin: 0 auto 1vh auto;
+    font-size: 2rem;
+    padding: 10px;
+    background-color: black;
+    border: 1px solid #666666;
+    color: white;
+}
+
+textarea {
+    width: 60vw;
+    margin: 0 auto 1vh auto;
+    font-size: 1rem;
+    padding: 10px;
+    background-color: black;
+    border: 1px solid #666666;
+    color: white;
+}
+
+button {
+    width: 20vw;
+    margin: 2vh auto 2vh auto;
+    background: -webkit-linear-gradient(#1b3385 0%, #25c5c9 100%);
+    width: 20vw;
+    margin: 0 auto 10vh auto;
+    padding: 2vh;
+    border-radius: 10vh;
+    color: #ffffff;
+    font-size: 2rem;
+}

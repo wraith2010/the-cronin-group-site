@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/contact.css" />
     <link rel="shortcut icon" type="image/png" href="img/1x/logo-32.png">
 
     <link rel="icon" href="img/1x/logo-32.png" sizes="32x32" />
@@ -16,17 +17,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="javascript/contact.js"></script>
 </head>
 
 <body>
     <header>
-        <div><img src="img/1x/logo-150.png" alt="Cronin Group Logo"></div>
+        <div><a href="index.html"><img src="img/1x/logo-150.png" alt="Cronin Group Logo"></a></div>
         <div>
             <h1>The Cronin Group</h1>
             <h2>Innovate. Integrate. Elevate. Your Custom Software Solution Partner</h2>
         </div>
     </header>
     <main>
+        <section>
+            <h4>Contact Submission</h4>
+            <p>Please leave us your contact information and someone will contact you promptly. We appreciate your
+                interest in The Cronin Group and look forward to servicing all of your software needs.</p>
+            <form action="https://formspree.io/f/mkgnbggv" method="post">
+                <label for="name">Name (required)</label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email (required)</label>
+                <input type="email" name="email" id="email" value="" required="true" aria-required="true">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="20"></textarea>
+                <button type="submit">Contact Us</button>
+            </form>
+        </section>
     </main>
 </body>
 
