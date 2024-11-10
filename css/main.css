@@ -2,48 +2,17 @@ body {
     background-color: #0A0C11;
     font-family: "Poppins", serif;
     margin: 0;
-}
 
-header {
-    width: 60vw;
-    display: flex;
-    flex-wrap: nowrap;
-    margin: 5vh auto 0 auto;
-}
-
-header>div {
-    margin: 0;
-}
-
-header>div>h1 {
-    color: #ffffff;
-    margin: 4vh auto 0 2vw;
-    font-size: 2rem;
-}
-
-header>div>h2 {
-    margin: 0 auto auto 2vw;
-    font-size: 1rem;
+    color: #aaaaaa;
 }
 
 h1 {
     color: #ffffff;
-    width: 50vw;
-    margin: 5vh auto 5vh auto;
-    font-size: 6rem;
-    text-transform: capitalize;
-    line-height: 1.2;
 }
 
-h2 {
-    width: 60vw;
-    color: #aaaaaa;
-    margin: 5vh auto 5vh auto;
-}
-
-p {
-    color: #aaaaaa;
-    margin: 5vh auto 5vh auto;
+article>figure {
+    background-color: #ffffff;
+    border-radius: 10%;
 }
 
 h3 {
@@ -68,105 +37,182 @@ main {
     text-align: center;
 }
 
-#main-blurb {
-    background-image: url(../img/philly/Leonardo_Vision_XL_Philadelphia_Skyline_4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-color: rgba(0, 0, 0, 0.3);
-    border-radius: 3vw;
+@media only screen and (max-device-width: 480px) {
+
+
+    
+    #laptop_image{
+        display: none;
+    }
+
+    main> h1 {
+        width: 80vw;
+        margin: 2vh auto 2vh auto;
+    }
+
+    main> h2 {
+        width: 80vw;
+        margin: 5vh auto 5vh auto;
+        text-align: justify;
+    }
+
+    /**#main-blurb {
+        background-image: url(../img/philly/Leonardo_Vision_XL_liberty_bell_1.jpg);
+        background-size: cover;
+        background-position: 50% 50%;
+        background-blend-mode: multiply;
+        background-color: rgba(0, 0, 0, 0.3);      
+    }*/
+
+    #main-blurb {
+        background-color: #222222;      
+        padding: 1vh 2vw;
+    }
+
+    #main-blurb>p {
+        color: white;
+        font-weight: bold;
+        font-size: 1.2rem;
+        filter: brightness(1);
+        width: 90vw;
+        margin: 3vh auto 3vh auto;
+    }
+
+    article {
+        width: 100vw;
+        margin: 0 auto 0 auto;
+    }
+
+    article>figure{
+        width: 60vw;
+        margin: 0 auto 0 auto;
+        text-align: center;
+    }
+
+    article>figure>img {
+        width: 50vw;
+        margin: 2vh;        
+    }   
+
 }
 
-#main-blurb>p {
-    color: white;
-    font-weight: bold;
-    text-shadow: 10px 10px 5px black;
-    filter: brightness(1);
-    width: 80%;
-}
+@media only screen and (min-device-width: 480px) {
+    main>h1 {
+        
+        width: 50vw;
+        margin: 5vh auto 5vh auto;
+        font-size: 6rem;
+        text-transform: capitalize;
+        line-height: 1.2;
+    }
 
-section {
-    width: 80vw;
-    margin: 5vh auto 5vh auto;
-    display: flex;
-    flex-wrap: wrap;
-}
+    main>h2 {
+        width: 60vw;
+        margin: 5vh auto 5vh auto;
+    }
 
-section>img {
-    width: 25vw;
-}
+    p {
+        margin: 5vh auto 5vh auto;
+    }
 
-section>div {
-    width: 40vw;
-    float: right;
-    text-align: left;
-}
 
-section>div>h1 {
-    font-size: 4rem;
-    width: 40vw;
-}
 
-section>div>h2 {
-    font-size: 2rem;
-    width: 40vw;
-}
+    #main-blurb {
+        background-image: url(../img/philly/Leonardo_Vision_XL_Philadelphia_Skyline_4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-blend-mode: multiply;
+        background-color: rgba(0, 0, 0, 0.3);
+        border-radius: 3vw;
+    }
 
-section>p {
-    display: block;
-    font-size: 2rem;
-    margin: 2vh auto 2vh auto;
-    text-align: left;
-    width: 100%;
-}
+    #main-blurb>p {
+        color: white;
+        font-weight: bold;
+        text-shadow: 10px 10px 5px black;
+        filter: brightness(1);
+        width: 80%;
+    }
 
-article {
-    margin: 2vh 2vw;
-}
+    section {
+        width: 80vw;
+        margin: 5vh auto 5vh auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-article>h3 {
-    color: #ffffff;
-    font-family: "Poppins", serif;
-}
+    section>img {
+        width: 25vw;
+    }
 
-article>figure {
-    background-color: #ffffff;
-    border-radius: 10%;
-}
+    section>div {
+        width: 40vw;
+        float: right;
+        text-align: left;
+    }
 
-article>figure>img {
-    width: 10vw;
-    margin: 1vw;
-}
+    section>div>h1 {
+        font-size: 4rem;
+        width: 40vw;
+    }
 
-a {
-    color: #ffffff;
-    font-size: 2rem;
-    text-decoration: none;
-}
+    section>div>h2 {
+        font-size: 2rem;
+        width: 40vw;
+    }
 
-label {
-    color: #ffffff;
-}
+    section>p {
+        display: block;
+        font-size: 2rem;
+        margin: 2vh auto 2vh auto;
+        text-align: left;
+        width: 100%;
+    }
 
-footer {
-    display: block;
-    background-color: black;
-    margin: 0;
-    text-align: center;
-    padding: 10vh;
-}
+    article {
+        margin: 2vh 2vw;
+    }
 
-footer>h1 {
-    font-size: 3rem;
-    margin: 5vh auto 0 auto;
-}
+    article>h3 {
+        color: #ffffff;
+        font-family: "Poppins", serif;
+    }   
 
-footer>div {
-    transition: all 0.3s ease-in-out;
-    background: -webkit-linear-gradient(#1b3385 0%, #25c5c9 100%);
-    width: 20vw;
-    margin: 0 auto 10vh auto;
-    padding: 5vh;
-    border-radius: 10vh;
+    article>figure>img {
+        width: 10vw;
+        margin: 1vw;
+    }
+
+    a {
+        color: #ffffff;
+        font-size: 2rem;
+        text-decoration: none;
+    }
+
+    label {
+        color: #ffffff;
+    }
+
+    footer {
+        display: block;
+        background-color: black;
+        margin: 0;
+        text-align: center;
+        padding: 10vh;
+    }
+
+    footer>h1 {
+        font-size: 3rem;
+        margin: 5vh auto 0 auto;
+    }
+
+    footer>div {
+        transition: all 0.3s ease-in-out;
+        background: -webkit-linear-gradient(#1b3385 0%, #25c5c9 100%);
+        width: 20vw;
+        margin: 0 auto 10vh auto;
+        padding: 5vh;
+        border-radius: 10vh;
+    }
+
 }
