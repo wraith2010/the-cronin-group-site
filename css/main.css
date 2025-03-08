@@ -56,14 +56,6 @@ main {
         text-align: justify;
     }
 
-    /**#main-blurb {
-        background-image: url(../img/philly/Leonardo_Vision_XL_liberty_bell_1.jpg);
-        background-size: cover;
-        background-position: 50% 50%;
-        background-blend-mode: multiply;
-        background-color: rgba(0, 0, 0, 0.3);      
-    }*/
-
     #main-blurb {
         background-color: #222222;      
         padding: 1vh 2vw;
@@ -92,8 +84,27 @@ main {
     article>figure>img {
         width: 50vw;
         margin: 2vh;        
-    }   
+    }  
+    
+    footer{
+        min-height: 20vh;
+    }
 
+    footer>div {
+        transition: all 0.3s ease-in-out;
+        background: -webkit-linear-gradient(#1b3385 0%, #25c5c9 100%);
+        width: 70vw;
+        margin: 0 auto 5vh auto;
+        border-radius: 10vh;
+        text-align: center;
+    }
+
+    footer>div>a{
+        font-size: 2rem;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+    }
 }
 
 @media only screen and (min-device-width: 480px) {
