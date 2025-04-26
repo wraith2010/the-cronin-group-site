@@ -1,0 +1,23 @@
+/* Ensure all main elements are centered */
+section {
+    text-align: center;
+}
+
+/* Style for the navigation links */
+.nav-links {
+    display: flex;                           /* Use flexbox for horizontal layout */
+    justify-content: center;                 /* Center the links within the container */
+    gap: 20px;                              /* Space between the links */
+    margin-top: 20px;                       /* Add space above the link section */
+}
+
+.nav-links a {
+    text-decoration: none;                   /* Remove underline from links */
+    color: #007BFF;                         /* Set link color */
+    font-size: 1.2em;                       /* Set font size */
+    transition: color 0.3s ease;            /* Smooth transition for hover effect */
+}
+
+.nav-links a:hover {
+    color: #0056b3;                         /* Change color on hover */
+}

@@ -1,0 +1,37 @@
+/* about.css */
+
+section {
+    text-align: center;                 /* Center-align text within the section */
+    padding: 20px;                     /* Add padding to top and bottom */
+}
+
+h4 {
+    font-size: 2em;                    /* Increase font size for the header */
+    margin-bottom: 20px;               /* Space beneath the header */
+}
+
+.about-container {
+    display: flex;                      /* Enable Flexbox layout */
+    flex-direction: column;            /* Stack items vertically */
+    align-items: center;               /* Center items horizontally */
+    gap: 20px;                         /* Add space between each content block */
+}
+
+.about-content {
+    max-width: 600px;                  /* Set a maximum width for the content */
+    width: 100%;                       /* Allow full width of the parent */
+    text-align: left;                  /* Align text to the left for paragraph readability */
+    padding: 10px;                     /* Add padding within the content blocks */
+}
+
+.about-content img {
+    max-width: 200px;                  /* Adjust image size as needed */
+    height: auto;                      /* Maintain aspect ratio */
+    border-radius: 50%;                /* Circular images */
+    margin-bottom: 15px;               /* Space below images */
+}
+
+.about-content p {
+    font-size: 1.25em;                 /* Text size for paragraphs */
+    line-height: 1.6; 
+}                
