@@ -63,12 +63,7 @@ main {
     article {
         width: 100vw;
         margin: 0 auto 0 auto;
-    }
-
-    article>figure>img {
-        width: 50vw;
-        margin: 2vh;
-    }
+    }    
 
     footer {
         min-height: 20vh;
@@ -170,8 +165,6 @@ main {
         color: #ffffff;
         font-family: "Poppins", serif;
     }
-
-
 
     a {
         color: #ffffff;

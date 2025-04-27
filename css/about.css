@@ -1,48 +1,84 @@
 /* about.css */
 
 section {
-    text-align: center;                 /* Center-align text within the section */
-    padding: 20px;                     /* Add padding to top and bottom */
+    text-align: center;
+    /* Center-align text within the section */
+    padding: 20px;
+    /* Add padding to top and bottom */
 }
 
-figure {
-    float: left;
-    width: 25%;
-    margin: 0 auto 0 0;
-    padding: 2vw;
-}
+
 
 h4 {
-    font-size: 2em;                    /* Increase font size for the header */
-    margin-bottom: 20px;               /* Space beneath the header */
+    font-size: 2em;
+    /* Increase font size for the header */
+    margin-bottom: 20px;
+    /* Space beneath the header */
 }
 
-article > p {
+article>p {
     text-align: justify;
 }
 
 .about-container {
-    display: flex;                      /* Enable Flexbox layout */
-    flex-direction: column;            /* Stack items vertically */
-    align-items: center;               /* Center items horizontally */
-    gap: 20px;                         /* Add space between each content block */
+    display: flex;
+    /* Enable Flexbox layout */
+    flex-direction: column;
+    /* Stack items vertically */
+    align-items: center;
+    /* Center items horizontally */
+    gap: 20px;
+    /* Add space between each content block */
 }
 
 .about-content {
-    max-width: 600px;                  /* Set a maximum width for the content */
-    width: 100%;                       /* Allow full width of the parent */
-    text-align: left;                  /* Align text to the left for paragraph readability */
-    padding: 10px;                     /* Add padding within the content blocks */
+    max-width: 600px;
+    /* Set a maximum width for the content */
+    width: 100%;
+    /* Allow full width of the parent */
+    text-align: left;
+    /* Align text to the left for paragraph readability */
+    padding: 10px;
+    /* Add padding within the content blocks */
 }
 
-figure > img {
-    width: 100%;                  /* Adjust image size as needed */
-    height: auto;                      /* Maintain aspect ratio */
-    border-radius: 50%;                /* Circular images */
-    margin-bottom: 15px;               /* Space below images */
+figure>img {
+    width: 100%;
+    /* Adjust image size as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 50%;
+    /* Circular images */
+    margin-bottom: 15px;
+    /* Space below images */
+
+    box-shadow: 20px 20px darkgrey;
 }
 
 .about-content p {
-    font-size: 1.25em;                 /* Text size for paragraphs */
-    line-height: 1.6; 
-}                
+    font-size: 1.25em;
+    /* Text size for paragraphs */
+    line-height: 1.6;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+
+    figure {
+        width: 100%;
+        margin: 0 auto 0 auto;
+        padding: 2vw;
+    }
+
+}
+
+@media only screen and (min-device-width: 480px) {
+
+    figure {
+        float: left;
+        width: 25%;
+        margin: 0 auto 0 0;
+        padding: 2vw;
+    }
+
+}

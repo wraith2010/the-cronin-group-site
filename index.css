@@ -3,6 +3,11 @@ article>figure {
     border-radius: 10%;
 }
 
+article>figure>img {
+    width: 50vw;
+    margin: 2vh;
+}
+
 @media only screen and (max-device-width: 480px) {
 
     article>figure {
@@ -17,7 +22,7 @@ article>figure {
 
     article>figure>img {
         width: 10vw;
-        margin: 1vw;
+        margin: 1vw;        
     }
 
 }
