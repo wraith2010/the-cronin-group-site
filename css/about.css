@@ -5,9 +5,20 @@ section {
     padding: 20px;                     /* Add padding to top and bottom */
 }
 
+figure {
+    float: left;
+    width: 25%;
+    margin: 0 auto 0 0;
+    padding: 2vw;
+}
+
 h4 {
     font-size: 2em;                    /* Increase font size for the header */
     margin-bottom: 20px;               /* Space beneath the header */
+}
+
+article > p {
+    text-align: justify;
 }
 
 .about-container {
@@ -24,8 +35,8 @@ h4 {
     padding: 10px;                     /* Add padding within the content blocks */
 }
 
-.about-content img {
-    max-width: 200px;                  /* Adjust image size as needed */
+figure > img {
+    width: 100%;                  /* Adjust image size as needed */
     height: auto;                      /* Maintain aspect ratio */
     border-radius: 50%;                /* Circular images */
     margin-bottom: 15px;               /* Space below images */
