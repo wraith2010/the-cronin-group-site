@@ -16,8 +16,16 @@ h4 {
     /* Space beneath the header */
 }
 
+article {
+    background-color: #333333;
+    padding: 2vw;
+    border-radius: 20px;
+    margin: 5vh auto 5vh auto;
+}
+
 article>p {
     text-align: justify;
+    color: aliceblue;    
 }
 
 .about-container {
@@ -52,7 +60,7 @@ figure>img {
     margin-bottom: 15px;
     /* Space below images */
 
-    box-shadow: 20px 20px darkgrey;
+    box-shadow: 10px 10px darkgrey;
 }
 
 .about-content p {

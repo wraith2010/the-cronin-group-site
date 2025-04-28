@@ -35,13 +35,21 @@ main {
         display: none;
     }
 
-    main>h1 {
+    main>h1,
+    main>h2,
+    main>h3,
+    main>h4,
+    main>h5 {
         width: 80vw;
+    }
+
+
+
+    main>h1 {
         margin: 2vh auto 2vh auto;
     }
 
     main>h2 {
-        width: 80vw;
         margin: 5vh auto 5vh auto;
         text-align: justify;
     }
@@ -59,11 +67,6 @@ main {
         width: 90vw;
         margin: 3vh auto 3vh auto;
     }
-
-    article {
-        width: 100vw;
-        margin: 0 auto 0 auto;
-    }    
 
     footer {
         min-height: 20vh;
@@ -155,10 +158,6 @@ main {
         margin: 2vh auto 2vh auto;
         text-align: left;
         width: 100%;
-    }
-
-    article {
-        margin: 2vh 2vw;
     }
 
     article>h3 {
