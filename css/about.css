@@ -7,51 +7,25 @@ section {
     /* Add padding to top and bottom */
 }
 
-
-
-h4 {
-    font-size: 2em;
-    /* Increase font size for the header */
-    margin-bottom: 20px;
-    /* Space beneath the header */
+article>header {
+    text-transform: uppercase;
+    color: #ffffff;
 }
 
 article {
     background-color: #333333;
-    padding: 2vw;
+    padding: 1vw;
     border-radius: 20px;
-    margin: 5vh auto 5vh auto;
+    margin: 0 auto 0 auto;
 }
 
 article>p {
     text-align: justify;
-    color: aliceblue;    
-}
-
-.about-container {
-    display: flex;
-    /* Enable Flexbox layout */
-    flex-direction: column;
-    /* Stack items vertically */
-    align-items: center;
-    /* Center items horizontally */
-    gap: 20px;
-    /* Add space between each content block */
-}
-
-.about-content {
-    max-width: 600px;
-    /* Set a maximum width for the content */
-    width: 100%;
-    /* Allow full width of the parent */
-    text-align: left;
-    /* Align text to the left for paragraph readability */
-    padding: 10px;
-    /* Add padding within the content blocks */
+    color: aliceblue;
 }
 
 figure>img {
-    width: 100%;
+
     /* Adjust image size as needed */
     height: auto;
     /* Maintain aspect ratio */
@@ -60,7 +34,6 @@ figure>img {
     margin-bottom: 15px;
     /* Space below images */
 
-    box-shadow: 10px 10px darkgrey;
 }
 
 .about-content p {
@@ -72,21 +45,54 @@ figure>img {
 
 @media only screen and (max-device-width: 480px) {
 
+    article {
+        width: 100%;
+        margin: 5vh auto 0 auto;
+    }
+
+    article>header {
+        font-size: 2em;
+    }
+
+
     figure {
         width: 100%;
         margin: 0 auto 0 auto;
         padding: 2vw;
     }
 
+    figure>img {
+        width: 90%;
+        margin: 0 auto 0 auto;
+    }
+
 }
 
 @media only screen and (min-device-width: 480px) {
 
+    section {
+        display: flex;
+        gap: 2vw;
+    }
+
+    article {
+        width: 46%;
+    }
+
+    article>header {
+        font-size: 4em;
+    }
+
     figure {
         float: left;
-        width: 25%;
+        width: 35%;
         margin: 0 auto 0 0;
-        padding: 2vw;
+        padding: 1vw;
+    }
+
+    figure>img {
+        width: 100%;
+        box-shadow: 10px 5px #000000;
     }
 
 }

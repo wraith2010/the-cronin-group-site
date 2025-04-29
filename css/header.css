@@ -1,28 +1,28 @@
-header>div>h1 {
+body>header>div>h1 {
     color: #ffffff;
     font-size: 2.5rem;
 }
 
-header>div>h2 {
+body>header>div>h2 {
     font-size: 0.8rem;
 }
 
 @media only screen and (max-device-width: 480px) {
-    header {
+    body>header {
         width: 100vw;
         display: flex;
         flex-wrap: wrap;
     }
 
-    header>div {
+    body>header>div {
         width: 100vw;
     }
 
-    header>img {
+    body>header>img {
         width: 100vw;
     }
 
-    header>div>h1 {
+    body>header>div>h1 {
         width: 90vw;
         margin: 2vh auto 2vh auto;
         font-size: 2.5rem;
@@ -30,7 +30,7 @@ header>div>h2 {
         font-weight: bold;
     }
 
-    header>div>h2 {
+    body>header>div>h2 {
         width: 90vw;
         margin: 2vh auto 2vh auto;
         font-size: 1.5rem;
@@ -40,7 +40,7 @@ header>div>h2 {
 }
 
 @media only screen and (min-device-width: 480px) {
-    header {
+    body>header {
         width: 60vw;
         display: flex;
         flex-wrap: nowrap;
@@ -48,16 +48,16 @@ header>div>h2 {
         margin: 5vh auto 0 auto
     }
 
-    header>img {
+    body>header>img {
         height: 25vh;
     }
 
-    header>div {
+    body>header>div {
         padding: 10vh 0 0 0;
     }
 
-    header>div>h1,
-    header>div>h2 {
+    body>header>div>h1,
+    body>header>div>h2 {
         white-space: nowrap;
         margin: 0;
     }
